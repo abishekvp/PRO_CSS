@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRO CSS</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style.scss">
+    <link rel="stylesheet" href="./nav.css">
     <script src="./script.js"></script>
 </head>
 <body>
@@ -22,6 +22,51 @@
         item.addEventListener('click', activeLink));
     </script>
 
+    
+    <nav>
+        <ul>
+            <li class="list active">
+                <a href="">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="list">
+                <a href="">
+                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                    <span class="text">About</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="list">
+                <a href="">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Projects</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="list">
+                <a href="">
+                    <span class="icon"><ion-icon name="reader-outline"></ion-icon></span>
+                    <span class="text">Blog</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="list">
+                <a href="">
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text">Contact</span>
+                </a>
+            </li>
+        </ul>
+        <div class="indicator"></div>
+    </nav>
+    
 
     <div class="clock">
         <div id="time">
